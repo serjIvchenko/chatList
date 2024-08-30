@@ -3,23 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C7910F742C8221CA009021AB /* chatListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7910F732C8221CA009021AB /* chatListApp.swift */; };
+		C7910F762C8221CA009021AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7910F752C8221CA009021AB /* ContentView.swift */; };
+		C7910F782C8221CB009021AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7910F772C8221CB009021AB /* Assets.xcassets */; };
+		C7910F7B2C8221CB009021AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7910F7A2C8221CB009021AB /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		C75F26902C820E01009032DC /* chatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7910F702C8221CA009021AB /* chatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7910F732C8221CA009021AB /* chatListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatListApp.swift; sourceTree = "<group>"; };
+		C7910F752C8221CA009021AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7910F772C8221CB009021AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7910F7A2C8221CB009021AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C75F26922C820E01009032DC /* chatList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = chatList;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		C75F268D2C820E01009032DC /* Frameworks */ = {
+		C7910F6D2C8221CA009021AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,103 +32,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C75F26872C820E01009032DC = {
+		C7910F672C8221CA009021AB = {
 			isa = PBXGroup;
 			children = (
-				C75F26922C820E01009032DC /* chatList */,
-				C75F26912C820E01009032DC /* Products */,
+				C7910F722C8221CA009021AB /* chatList */,
+				C7910F712C8221CA009021AB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C75F26912C820E01009032DC /* Products */ = {
+		C7910F712C8221CA009021AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C75F26902C820E01009032DC /* chatList.app */,
+				C7910F702C8221CA009021AB /* chatList.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C7910F722C8221CA009021AB /* chatList */ = {
+			isa = PBXGroup;
+			children = (
+				C7910F732C8221CA009021AB /* chatListApp.swift */,
+				C7910F752C8221CA009021AB /* ContentView.swift */,
+				C7910F772C8221CB009021AB /* Assets.xcassets */,
+				C7910F792C8221CB009021AB /* Preview Content */,
+			);
+			path = chatList;
+			sourceTree = "<group>";
+		};
+		C7910F792C8221CB009021AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7910F7A2C8221CB009021AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C75F268F2C820E01009032DC /* chatList */ = {
+		C7910F6F2C8221CA009021AB /* chatList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C75F269E2C820E03009032DC /* Build configuration list for PBXNativeTarget "chatList" */;
+			buildConfigurationList = C7910F7E2C8221CB009021AB /* Build configuration list for PBXNativeTarget "chatList" */;
 			buildPhases = (
-				C75F268C2C820E01009032DC /* Sources */,
-				C75F268D2C820E01009032DC /* Frameworks */,
-				C75F268E2C820E01009032DC /* Resources */,
+				C7910F6C2C8221CA009021AB /* Sources */,
+				C7910F6D2C8221CA009021AB /* Frameworks */,
+				C7910F6E2C8221CA009021AB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C75F26922C820E01009032DC /* chatList */,
-			);
 			name = chatList;
-			packageProductDependencies = (
-			);
 			productName = chatList;
-			productReference = C75F26902C820E01009032DC /* chatList.app */;
+			productReference = C7910F702C8221CA009021AB /* chatList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C75F26882C820E01009032DC /* Project object */ = {
+		C7910F682C8221CA009021AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					C75F268F2C820E01009032DC = {
-						CreatedOnToolsVersion = 16.1;
+					C7910F6F2C8221CA009021AB = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = C75F268B2C820E01009032DC /* Build configuration list for PBXProject "chatList" */;
+			buildConfigurationList = C7910F6B2C8221CA009021AB /* Build configuration list for PBXProject "chatList" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C75F26872C820E01009032DC;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = C75F26912C820E01009032DC /* Products */;
+			mainGroup = C7910F672C8221CA009021AB;
+			productRefGroup = C7910F712C8221CA009021AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C75F268F2C820E01009032DC /* chatList */,
+				C7910F6F2C8221CA009021AB /* chatList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C75F268E2C820E01009032DC /* Resources */ = {
+		C7910F6E2C8221CA009021AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7910F7B2C8221CB009021AB /* Preview Assets.xcassets in Resources */,
+				C7910F782C8221CB009021AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C75F268C2C820E01009032DC /* Sources */ = {
+		C7910F6C2C8221CA009021AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7910F762C8221CA009021AB /* ContentView.swift in Sources */,
+				C7910F742C8221CA009021AB /* chatListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C75F269C2C820E03009032DC /* Debug */ = {
+		C7910F7C2C8221CB009021AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -188,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		C75F269D2C820E03009032DC /* Release */ = {
+		C7910F7D2C8221CB009021AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -244,7 +264,7 @@
 			};
 			name = Release;
 		};
-		C75F269F2C820E03009032DC /* Debug */ = {
+		C7910F7F2C8221CB009021AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -260,13 +280,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chatListView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chatListView.chatList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -274,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		C75F26A02C820E03009032DC /* Release */ = {
+		C7910F802C8221CB009021AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,13 +309,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chatListView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chatListView.chatList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C75F268B2C820E01009032DC /* Build configuration list for PBXProject "chatList" */ = {
+		C7910F6B2C8221CA009021AB /* Build configuration list for PBXProject "chatList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C75F269C2C820E03009032DC /* Debug */,
-				C75F269D2C820E03009032DC /* Release */,
+				C7910F7C2C8221CB009021AB /* Debug */,
+				C7910F7D2C8221CB009021AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C75F269E2C820E03009032DC /* Build configuration list for PBXNativeTarget "chatList" */ = {
+		C7910F7E2C8221CB009021AB /* Build configuration list for PBXNativeTarget "chatList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C75F269F2C820E03009032DC /* Debug */,
-				C75F26A02C820E03009032DC /* Release */,
+				C7910F7F2C8221CB009021AB /* Debug */,
+				C7910F802C8221CB009021AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C75F26882C820E01009032DC /* Project object */;
+	rootObject = C7910F682C8221CA009021AB /* Project object */;
 }
