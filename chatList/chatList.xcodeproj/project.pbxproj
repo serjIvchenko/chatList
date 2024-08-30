@@ -11,6 +11,7 @@
 		C7910F762C8221CA009021AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7910F752C8221CA009021AB /* ContentView.swift */; };
 		C7910F782C8221CB009021AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7910F772C8221CB009021AB /* Assets.xcassets */; };
 		C7910F7B2C8221CB009021AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7910F7A2C8221CB009021AB /* Preview Assets.xcassets */; };
+		C7910F842C82263B009021AB /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7910F832C82263B009021AB /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C7910F752C8221CA009021AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7910F772C8221CB009021AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7910F7A2C8221CB009021AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7910F832C82263B009021AB /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C7910F732C8221CA009021AB /* chatListApp.swift */,
 				C7910F752C8221CA009021AB /* ContentView.swift */,
+				C7910F832C82263B009021AB /* ChatMessage.swift */,
 				C7910F772C8221CB009021AB /* Assets.xcassets */,
 				C7910F792C8221CB009021AB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7910F842C82263B009021AB /* ChatMessage.swift in Sources */,
 				C7910F762C8221CA009021AB /* ContentView.swift in Sources */,
 				C7910F742C8221CA009021AB /* chatListApp.swift in Sources */,
 			);
